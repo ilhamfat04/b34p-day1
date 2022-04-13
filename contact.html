@@ -1,0 +1,63 @@
+<html>
+
+<head>
+    <title>Contact Me</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+
+    <nav>
+        <div class="left-side">
+            <a href="index.html">
+                <img src="assets/img/logo.png" alt="">
+            </a>
+            <ol>
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+                <li>
+                    <a href="">Blog</a>
+                </li>
+            </ol>
+        </div>
+
+        <div class="right-side">
+            <a href="contact.html">Contact Me</a>
+        </div>
+    </nav>
+
+    <div class="form-contact">
+        <div class="container-form">
+            <form>
+                <div>
+                    <label for="name">Name</label>
+                    <input id="name" type="text" required placeholder="input your name">
+                </div>
+                <div>
+                    <label for="email">Email</label>
+                    <input id="email" type="email">
+                </div>
+                <div>
+                    <label for="phone">Phone</label>
+                    <input id="phone" type="text" pattern="">
+                </div>
+                <div>
+                    <label for="subject">Subject</label>
+                    <select id="subject">
+                        <option value="">Frontend</option>
+                        <option value="">Backend</option>
+                        <option value="" selected>Fullstack</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="message">Your Message</label>
+                    <textarea id="message" cols="30" rows="5"></textarea>
+                </div>
+                <button>Submit</button>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* NAVBAR START */
+nav {
+    display: flex;
+    height: 7vh;
+    background-color: #f3f3f3;
+}
+
+nav div {
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+
+nav .left-side {
+    padding-left: 90px;
+}
+
+nav .right-side {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 90px;
+}
+
+nav ol {
+    list-style-type: none;
+    margin-left: 40px;
+}
+
+nav ol li {
+    display: inline;
+    margin-left: 40px;
+}
+
+nav ol li a {
+    text-decoration: none;
+    color: black;
+}
+
+nav .right-side a {
+    text-decoration: none;
+    color: white;
+    padding: 8px 20px;
+    background-color: #ec4d37;
+    border-radius: 10px;
+    border: none;
+    font-weight: 700;
+}
+
+/* NAVBAR END */
+
+
+/* FORM CONTACT ME START */
+.form-contact {
+    height: 93vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-contact .container-form {
+    /* background-color: aqua; */
+    width: 30%;
+}
+
+.form-contact form label {
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.form-contact form input,
+select,
+textarea {
+    width: 100%;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    border: 1px solid #c4c4c4;
+    border-radius: 8px;
+}
+
+.form-contact form textarea {
+    resize: none;
+    height: 100px;
+}
+
+.form-contact form button {
+    padding: 8px 30px;
+    font-size: 17px;
+    background-color: #ec4d37;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+/* FORM CONTACT ME END */
