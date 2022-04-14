@@ -1,0 +1,52 @@
+// TIPE DATA PRIMITIVE
+// 1. STRING = TEXT
+// 2. NUMBER = ANGKA
+// 3. BOOLEAN = TRUE/FALSE
+// 4. UNDIFINED = BELUM DIISI
+// 5. NULL = TIDAK ADA NILAI NYA
+
+// TIPE DATA NON-PROMITIVE
+// 1. ARRAY
+// 2. OBJECT
+// 3. DATE
+
+// VARIABEL = wadah 
+// VAR
+// LET
+// CONST
+
+// KATA_KUNCI NAMA = VALUE
+// const name = "ilham fathullah"
+// let myAge = 100
+// console.log("Hello, my name is " + name + " my age is " + myAge);
+// console.log('Hello, my name is ' + name + ' my age is ' + myAge);
+// console.log(`Hello, my name is ${name} my age is ${myAge}`);
+
+
+// CONDITION / PERCABANGAN
+// > 50 = LANSIA
+// > 20 = TUA
+// MUDA
+
+// if (myAge > 20) {
+//     console.log("kamu udah tua mas");
+// } else if (myAge > 50) {
+//     console.log("Wes lansia")
+// } else {
+//     console.log("kamu masih muda mas");
+// }
+
+let name = "ilham fathullah"
+let myAge = 10
+// FUNCTION
+function greeting(myName) {
+    console.log(myName)
+    console.log(`Hello, my name is ${myName} my age is ${myAge}`);
+}
+
+greeting("Jemmy")
+greeting(name)
+
+// LOOPING / PERULANGAN
+
+
