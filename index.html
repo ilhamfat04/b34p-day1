@@ -1,69 +1,106 @@
 <html>
 
 <head>
-    <title>Creating Card</title>
-    <link rel="stylesheet" href="assets/css/style.css">
-
+    <title>Personal Web - Beranda</title>
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body>
     <nav>
         <div class="left-side">
-            <a href="index.html">
-                <img src="assets/img/logo.png" alt="">
-            </a>
-            <ol>
-                <li>
-                    <a href="index.html">Home</a>
-                </li>
-                <li>
-                    <a href="">Blog</a>
-                </li>
-            </ol>
+            <a href="index.html"><img src="assets/img/logo.png" alt="" /></a>
+            <ul>
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">Blog</a></li>
+            </ul>
         </div>
 
         <div class="right-side">
-            <a href="contact.html">Contact Me</a>
+            <a href="contact-me.html">Contact Me</a>
         </div>
     </nav>
-    <div class="card" style="
-        border: 1px solid black;
-        width: 30%;
-        padding: 15px;
-        border-radius: 16px;
-        box-shadow: 0px 0px 20px #00000040;
-        background-color: aqua;
-    ">
-        <div class="image">
-            <img src="assets/img/my-img.jpg" style="width: 100%; border-radius: 15px;" />
-        </div>
-        <div class="title">
-            <h1>Ilham Fathullah</h1>
-        </div>
-        <div class="content">
-            <p style="color: rgb(180, 180, 173);">
-                I became a superstart to make awesome app and software to bring new life mankind
-            </p>
-            <table border="1" style="
-                width: 100%;
-                border-collapse: collapse;
-                border: 2px solid red;
-            ">
-                <tr>
-                    <th style="padding:5px;">Project</th>
-                    <th>Year</th>
-                </tr>
-                <tr>
-                    <td style="padding:5px;">Build App Dumbwasy.id</td>
-                    <td>2022</td>
-                </tr>
-            </table>
-            <button>Save</button>
-        </div>
 
-        <div style="border: 1px solid black;">
-            test
+    <div class="personal">
+
+        <div class="container-content">
+
+            <div class="left">
+                <div class="card" style="
+                    border: 1px solid black;
+                    width: 400px;
+                    padding: 15px;
+                    box-shadow: 0px 0px 30px rgb(79, 79, 79);
+                    border-radius: 10px;
+                    ">
+                    <img src="assets/img/my-img.jpg" style="width: 100%; border-radius: 10px" />
+                    <h1>Jody Septiawan</h1>
+                    <p style="color: grey">
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo, assumenda
+                        fugiat quasi eveniet dolores exercitationem.
+                    </p>
+
+                    <table border="1" style="width: 100%; border-collapse: collapse;">
+                        <thead>
+                            <tr>
+                                <th>Experience</th>
+                                <th>Year</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td style="text-align: center;">Personal Web</td>
+                                <td style="text-align: center;">2022</td>
+                            </tr>
+                            <tr>
+                                <td style="text-align: center;">Mobile App</td>
+                                <td style="text-align: center;">2019</td>
+                            </tr>
+
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <div class="right">
+                <h1>What I do</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat optio odit repudiandae minus eius
+                    ipsum recusandae commodi voluptatibus nisi necessitatibus culpa molestiae aliquid repellat, ad
+                    excepturi iure molestias laboriosam. Nulla reprehenderit,</p>
+                <div class="skill">
+                    <div>
+                        <img src="assets/js.png" alt="">
+                        <h3>Frontend Developer</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsa earum placeat provident dolore
+                            dolorem est.</p>
+                    </div>
+                    <div>
+                        <img src="assets/git.png" alt="">
+                        <h3>Version Control</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsa earum placeat provident dolore
+                            dolorem est.</p>
+                    </div>
+                    <div>
+                        <img src="assets/deploy.png" alt="">
+                        <h3>DevOps</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsa earum placeat provident dolore
+                            dolorem est.</p>
+                    </div>
+                </div>
+                <div class="sosmed">
+                    <h1>Found Me On</h1>
+                    <a href="https://www.facebook.com">
+                        <i class="fa-brands fa-facebook-f"></i>
+                    </a>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                </div>
+            </div>
+
         </div>
+    </div>
+
     </div>
 </body>
 

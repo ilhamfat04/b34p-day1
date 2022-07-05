@@ -1,106 +1,108 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-* {
-    font-family: 'Poppins', sans-serif;
+body {
     margin: 0;
-    padding: 0;
+    font-family: 'Poppins', sans-serif;
 }
 
-/* NAVBAR START */
 nav {
-    display: flex;
+    background-color: #f4f3f3;
     height: 7vh;
-    background-color: #f3f3f3;
+    display: flex;
 }
 
 nav div {
-    width: 50%;
     display: flex;
     align-items: center;
 }
 
 nav .left-side {
+    flex: 50%;
     padding-left: 90px;
 }
 
 nav .right-side {
-    display: flex;
-    justify-content: flex-end;
+    flex: 50%;
     padding-right: 90px;
+    justify-content: flex-end;
 }
 
-nav ol {
+nav ul {
     list-style-type: none;
     margin-left: 40px;
 }
 
-nav ol li {
+nav ul li {
     display: inline;
     margin-left: 40px;
 }
 
-nav ol li a {
-    text-decoration: none;
+nav ul li a {
     color: black;
+    text-decoration: none;
 }
 
-nav .right-side a {
-    text-decoration: none;
-    color: white;
-    padding: 8px 20px;
-    background-color: #ec4d37;
-    border-radius: 10px 10px 0 0;
-    border: none;
+nav ul li a.active {
+    color: #ec4d37;
     font-weight: 700;
 }
 
-/* NAVBAR END */
+nav .right-side a {
+    font-size: 15px;
+    padding: 8px 20px;
+    background-color: #ec4d37;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    text-decoration: none;
+}
 
-
-/* FORM CONTACT ME START */
-.form-contact {
+.personal {
     height: 93vh;
     display: flex;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
 }
 
-.form-contact .container-form {
-    /* background-color: aqua; */
-    width: 30%;
+.container-content {
+    padding: 10px;
+    width: 80%;
+    display: flex;
 }
 
-.form-contact form label {
-    font-size: 20px;
-    font-weight: 800;
+.container-content .left {
+    flex: 40%;
+    /* background-color: darkgoldenrod; */
 }
 
-.form-contact form input,
-select,
-textarea {
-    width: 100%;
-    font-size: 20px;
-    font-weight: 500;
-    padding: 8px;
-    margin-top: 5px;
-    margin-bottom: 20px;
-    border: 1px solid #c4c4c4;
-    border-radius: 8px;
+.container-content .right {
+    flex: 60%;
+    /* background-color: rgb(243, 210, 243); */
 }
 
-.form-contact form textarea {
-    resize: none;
-    height: 100px;
+.container-content .right p {
+    color: #959595;
+    text-align: justify;
 }
 
-.form-contact form button {
-    padding: 8px 30px;
-    font-size: 17px;
-    background-color: #ec4d37;
-    border-radius: 10px;
-    border: none;
-    color: white;
-    cursor: pointer;
+.container-content .right .skill {
+    display: flex;
 }
 
-/* FORM CONTACT ME END */
+.container-content .right .skill div {
+    margin-right: 20px;
+}
+
+.container-content .right .skill img {
+    width: 60px;
+    height: 60px;
+}
+
+.container-content .right .sosmed i {
+    margin-right: 10px;
+}
+
+.container-content .right .sosmed a {
+    color: black;
+    text-decoration: none;
+}
